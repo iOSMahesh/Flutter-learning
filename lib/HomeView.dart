@@ -52,6 +52,12 @@ class HomeView extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, "/buttonWidget");
                 },
+              ),
+              ListTile(
+                title: Text('Login Form'),
+                onTap: () {
+                  Navigator.pushNamed(context, "/loginForm");
+                },
               )
             ],
           ),

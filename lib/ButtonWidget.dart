@@ -17,11 +17,11 @@ class ButtonWidget extends StatelessWidget {
                 onPressed: () {
                   Navigator.pop(context);
                 }),
-              OutlinedButton(onPressed: () {
-                print("Outline Clicked");
-              }, child: Text("Outline")
-
-              ),
+            OutlinedButton(
+                onPressed: () {
+                  print("Outline Clicked");
+                },
+                child: Text("Outline")),
           ]),
         ));
   }

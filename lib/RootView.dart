@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application/ButtonWidget.dart';
 import 'package:flutter_application/HomeView.dart';
 import 'package:flutter_application/ImageWidget.dart';
+import 'package:flutter_application/LoginForm.dart';
 import 'package:flutter_application/TextWidget.dart';
 
 class RootView extends StatelessWidget {
@@ -11,7 +12,10 @@ class RootView extends StatelessWidget {
       "/": (context) => HomeView(),
       "/textWidget": (context) => TextWidget(),
       "/imageWidget": (context) => ImageWidget(),
-      "/buttonWidget": (context) => ButtonWidget()
-    });
+      "/buttonWidget": (context) => ButtonWidget(),
+      "/loginForm": (context) => LoginPage()
+    },
+    debugShowCheckedModeBanner: false,
+    );
   }
 }
